@@ -1,3 +1,7 @@
+-- importante 
+-- const connectionString = process.env.HOST
+-- en mi proyecto la variable es HOST
+
 DROP TABLE IF EXISTS ALUMNOS;
 
 CREATE TABLE ALUMNOS(
@@ -14,7 +18,7 @@ INSERT INTO ALUMNOS (NOMBRE,RUT,CURSO,NIVEL) VALUES
 
 SELECT * FROM ALUMNOS;
 
-/* OBJETO PARA PROBAR QUERY DE ACTUALIZACION 
+/* ejemplo de OBJETO PARA PROBAR QUERY DE ACTUALIZACION 
 
 rut
 
